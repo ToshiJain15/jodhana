@@ -1,0 +1,225 @@
+   *{
+        margin: 0;
+        padding: 0;
+         box-sizing: border-box; 
+   } 
+   .jd_bg{
+            background: linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/jod.jpg')");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+   }
+   ul{
+    list-style: none;
+   }
+        .icon img{
+           width: 100px;
+          position: absolute;
+         top: 10px;
+        left: 10px;
+        }
+        
+        .right a{
+        position: absolute;
+        right: 34px;
+        top: 34px;
+        display: inline-block;
+         border: none;
+    /*outline: none;*/
+    opacity: 0.3;
+    background: rgb(221 206 255);
+    padding: 11px 25px;
+    /*width: 100px;*/
+    /*margin-top: 10px;*/
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    }
+    .right a:active{
+        opacity: 0.1;
+    }
+    .right a:hover{
+        background: blueviolet;
+    }
+    .right2 a:hover{
+         background: blueviolet;
+    }
+    .right2 a{
+        position: absolute;
+        right: 34px;
+        top: 84px;
+        display: inline-block;
+         border: none;
+    /*outline: none;*/
+    opacity: 0.3;
+    background: rgb(221 206 255);
+    padding: 11px 25px;
+    /*width: 100px;*/
+    /*margin-top: 10px;*/
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    }
+    .right2 a:active{
+        opacity: 0.1;
+    }
+    .right1 a:hover{
+        background: blueviolet;
+   }
+   .right1 a{
+       position: absolute;
+       right: 34px;
+       top: 145px;
+       display: inline-block;
+        border: none;
+   /*outline: none;*/
+   opacity: 0.3;
+   background: rgb(221 206 255);
+   padding: 11px 25px;
+   /*width: 100px;*/
+   /*margin-top: 10px;*/
+   border-radius: 5px;
+   font-weight: 600;
+   cursor: pointer;
+   text-decoration: none;
+   }
+   .right1 a:active{
+       opacity: 0.1;
+   }
+        .contaier h1{
+            text-align: center;
+            width: 100%;
+            color: #fff;
+            position: absolute;
+            top: 40%;
+            transform: translate(-50%,-50%);
+            font-size: 70px;
+        }
+        .contaier p{
+            text-align: center;
+            width: 90%;
+            color: #fff;
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            /*line-height: 50px;*/
+            /* font-size: 70px; */
+        }
+        .container p{
+             text-align: center;
+            width: 100%;
+            color: #fff;
+            position: absolute;
+            top: 85%;
+            left: 0;
+/*            transform: translate(-50%,-50%);*/
+            font-weight: bolder;
+            font-size: 20px;
+            /*line-height: 50px;*/
+        }
+       /* section .place{
+            color: #fff;
+        }
+        section .tab .artcon{
+            border: 2px solid #f47205;
+            background-color: #efeacc;
+        }
+        section .tab{
+            display: flex;
+        }        
+        section .tab .artimg img{
+            /*padding: 10px;
+            margin: 10px;
+        }
+        .artcon h4{
+            width: 100%;
+            min-height: 100px;
+            text-align: center;
+            font-size: 25px;
+            padding: 10px;
+            margin: 10px;
+            color: darkgoldenrod;
+        }
+        .artcon p{
+            width: 100%;
+            min-height: 100px;
+            text-align: center;
+            font-size: 25px;
+            padding: 10px;
+            margin: 10px;
+            color: #f47205;
+            /*border: 2px solid #f47205;
+        }
+        .artimg{
+            border: 2px solid gold;
+            background-color: #f3db9f;
+            /*position: absolute;
+        }*/
+        footer .footer-top{
+            width: 100%;
+            height: 400px;
+            background: url("../images/testimonials-bg.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        footer .footer-top div{
+            color: #fff;    
+            font-size: 25px;
+            height: 300px;
+            line-height: 40px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            width: 50%;
+            margin: auto;
+        }
+
+        footer .footer-top{
+            text-align: center;
+            color: #fff;
+            font-size: 25px;
+        }
+        footer .footer-last{
+            background: #CCCCCC;
+            color: #000;
+        }
+        footer .footer-main{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 10px 0;
+        }
+        footer .footer-main h4 a{
+            color: #000;
+            padding-bottom: 10px;
+        }
+        footer .footer-middler {
+            padding-bottom: 10px;
+        }
+        footer .footer-middler ul li {
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+        footer .footer-middler ul li a,
+        footer .footer-last-first ul li i a{
+            color: #000;
+        }
+        footer .footer-last-3 ul{
+            display: flex;
+        }
+        footer .footer-last-3 i{
+            background: #501A8C;
+            padding: 5px;
+            color: #fff;
+            margin: 10px 5px;
+        }
+        .map img{
+            width: 100px;
+          position: relative;
+         bottom: 5px;
+        right: 10px;
+        }
